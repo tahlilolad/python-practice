@@ -13,5 +13,5 @@ if answer2 == "central processing unit":
     score += 1
 else:
     print("Incorrect. The correct answer is Central Processing Unit.")
-print("Quiz complete! Your final score is: " + str(score) + "/2")
-
+print(f"Quiz complete! Your final score is: {score} /2")
+print("Thanks for playing " + name + "!")
